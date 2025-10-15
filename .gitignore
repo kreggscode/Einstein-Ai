@@ -109,3 +109,6 @@ Desktop.ini
 # Exclude markdown files except README.md
 *.md
 !README.md
+
+# Local scripts
+push.bat

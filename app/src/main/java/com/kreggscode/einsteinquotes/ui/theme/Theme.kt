@@ -61,8 +61,9 @@ fun EinsteinTheme(
             WindowCompat.setDecorFitsSystemWindows(window, false)
             
             WindowCompat.getInsetsController(window, view).apply {
-                isAppearanceLightStatusBars = !darkTheme
-                isAppearanceLightNavigationBars = !darkTheme
+                // ALWAYS use white icons since our app has dark backgrounds in both modes
+                isAppearanceLightStatusBars = false  // false = white icons
+                isAppearanceLightNavigationBars = false  // false = white icons
             }
         }
     }

@@ -22,9 +22,13 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.draw.blur
 import androidx.compose.ui.draw.shadow
+import androidx.compose.foundation.layout.WindowInsets
+import androidx.compose.foundation.layout.systemBars
+import androidx.compose.foundation.layout.windowInsetsPadding
 import com.kreggscode.einsteinquotes.model.Category
 import com.kreggscode.einsteinquotes.ui.components.GlassCard
 import com.kreggscode.einsteinquotes.ui.components.MorphismCard
+import com.kreggscode.einsteinquotes.ui.components.GlassmorphicHeader
 import com.kreggscode.einsteinquotes.viewmodel.QuoteViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -65,41 +69,26 @@ fun HomeScreen(
         } else {
             LazyVerticalGrid(
                 columns = GridCells.Fixed(2),
-                modifier = Modifier.fillMaxSize(),
+                modifier = Modifier
+                    .fillMaxSize()
+                    .windowInsetsPadding(WindowInsets.systemBars),
                 contentPadding = PaddingValues(
                     start = 20.dp,
                     end = 20.dp,
-                    top = 60.dp,  // Status bar space
-                    bottom = 120.dp  // Navigation bar space
+                    top = 20.dp,
+                    bottom = 100.dp  // Navigation bar space
                 ),
                 horizontalArrangement = Arrangement.spacedBy(16.dp),
                 verticalArrangement = Arrangement.spacedBy(16.dp)
             ) {
-                // Stunning header with Einstein branding
+                // Glassmorphic animated header
                 item(
                     span = { androidx.compose.foundation.lazy.grid.GridItemSpan(2) }
                 ) {
-                    Column(
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .padding(bottom = 24.dp),
-                        horizontalAlignment = Alignment.CenterHorizontally
-                    ) {
-                        Text(
-                            text = "Einstein",
-                            style = MaterialTheme.typography.displayLarge,
-                            fontWeight = FontWeight.Black,
-                            color = MaterialTheme.colorScheme.primary,
-                            fontSize = 48.sp
-                        )
-                        Text(
-                            text = "Insights & Wisdom",
-                            style = MaterialTheme.typography.titleMedium,
-                            color = MaterialTheme.colorScheme.onBackground.copy(alpha = 0.7f),
-                            fontWeight = FontWeight.Light,
-                            letterSpacing = 2.sp
-                        )
-                    }
+                    GlassmorphicHeader(
+                        title = "Einstein AI",
+                        subtitle = "INSIGHTS & WISDOM"
+                    )
                 }
                 // Stunning feature cards
                 item {

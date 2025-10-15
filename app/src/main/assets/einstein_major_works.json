@@ -1,0 +1,210 @@
+[
+  {
+    "id": "special_relativity",
+    "title": "On the Electrodynamics of Moving Bodies",
+    "subtitle": "Special Theory of Relativity",
+    "year": "1905",
+    "type": "Major Work",
+    "icon": "⚡",
+    "summary": "Einstein's groundbreaking paper that introduced the Special Theory of Relativity, revolutionizing our understanding of space, time, and motion.",
+    "keyEquation": "E=mc²",
+    "keyEquationExplanation": "Energy equals mass times the speed of light squared - showing mass and energy are interchangeable",
+    "sections": [
+      {
+        "title": "The Problem",
+        "content": "Classical physics couldn't explain why the speed of light appeared constant regardless of the observer's motion. This contradiction between Maxwell's equations and Newtonian mechanics needed resolution."
+      },
+      {
+        "title": "The Revolutionary Postulates",
+        "content": "1. The laws of physics are the same in all inertial reference frames\n2. The speed of light in vacuum is constant (c = 299,792,458 m/s) for all observers, regardless of their motion or the motion of the light source"
+      },
+      {
+        "title": "Mind-Bending Consequences",
+        "content": "• Time Dilation: Moving clocks run slower\n• Length Contraction: Moving objects shrink in the direction of motion\n• Relativity of Simultaneity: Events simultaneous in one frame aren't in another\n• Mass-Energy Equivalence: E=mc² - mass can be converted to energy"
+      },
+      {
+        "title": "Real-World Applications",
+        "content": "• GPS satellites must account for time dilation\n• Particle accelerators rely on relativistic effects\n• Nuclear power and atomic bombs use E=mc²\n• Cosmic ray interactions in Earth's atmosphere"
+      }
+    ],
+    "funFacts": [
+      "Einstein was 26 years old and working as a patent clerk when he published this paper",
+      "The famous equation E=mc² wasn't in the original paper - it came in a follow-up paper months later",
+      "The paper had no footnotes or references to other scientists' work",
+      "It took years for the scientific community to fully accept these ideas"
+    ],
+    "equations": [
+      {
+        "formula": "t' = t / √(1 - v²/c²)",
+        "name": "Time Dilation",
+        "explanation": "Time (t') for a moving observer is dilated compared to stationary time (t)"
+      },
+      {
+        "formula": "L' = L × √(1 - v²/c²)",
+        "name": "Length Contraction",
+        "explanation": "Length (L') of a moving object contracts in the direction of motion"
+      },
+      {
+        "formula": "E² = (pc)² + (mc²)²",
+        "name": "Energy-Momentum Relation",
+        "explanation": "Complete relativistic energy equation including momentum"
+      }
+    ]
+  },
+  {
+    "id": "general_relativity",
+    "title": "The Foundation of the General Theory of Relativity",
+    "subtitle": "General Relativity",
+    "year": "1916",
+    "type": "Major Work",
+    "icon": "🌌",
+    "summary": "Einstein's masterpiece that describes gravity not as a force, but as the curvature of spacetime caused by mass and energy.",
+    "keyEquation": "Rμν - ½Rgμν = 8πG/c⁴ × Tμν",
+    "keyEquationExplanation": "The Einstein Field Equations - showing how matter curves spacetime",
+    "sections": [
+      {
+        "title": "The Big Idea",
+        "content": "Gravity isn't a force pulling objects together. Instead, massive objects curve the fabric of spacetime itself, and objects follow the straightest possible paths (geodesics) through this curved spacetime."
+      },
+      {
+        "title": "The Equivalence Principle",
+        "content": "Einstein's key insight: You can't tell the difference between:\n• Standing in a gravitational field on Earth\n• Being in an accelerating rocket in deep space\n\nThis equivalence led him to realize gravity must be geometric, not a force."
+      },
+      {
+        "title": "Predictions That Changed Physics",
+        "content": "• Light bends around massive objects (gravitational lensing)\n• Time runs slower in stronger gravitational fields\n• Mercury's orbit precesses in a way Newton couldn't explain\n• Gravitational waves ripple through spacetime\n• Black holes can exist"
+      },
+      {
+        "title": "Modern Applications",
+        "content": "• GPS systems must correct for both special AND general relativistic effects\n• Gravitational wave detectors (LIGO) confirmed Einstein's 100-year-old prediction\n• Black hole imaging relies on general relativity\n• Cosmology and the expanding universe"
+      }
+    ],
+    "funFacts": [
+      "It took Einstein 10 years to develop general relativity after special relativity",
+      "The 1919 solar eclipse expedition confirmed light bending, making Einstein world-famous overnight",
+      "Einstein's equations predicted black holes, but he didn't believe they could actually exist",
+      "The equations are so complex that exact solutions are rare - most require supercomputers"
+    ],
+    "equations": [
+      {
+        "formula": "ds² = gμν dx^μ dx^ν",
+        "name": "Spacetime Metric",
+        "explanation": "Describes the geometry of curved spacetime"
+      },
+      {
+        "formula": "Δt = Δt₀ / √(1 - 2GM/rc²)",
+        "name": "Gravitational Time Dilation",
+        "explanation": "Time runs slower near massive objects"
+      },
+      {
+        "formula": "θ = 4GM/c²r",
+        "name": "Light Deflection",
+        "explanation": "How much light bends around a massive object"
+      }
+    ]
+  },
+  {
+    "id": "photoelectric_effect",
+    "title": "On a Heuristic Point of View Concerning the Production and Transformation of Light",
+    "subtitle": "Photoelectric Effect",
+    "year": "1905",
+    "type": "Major Work",
+    "icon": "💡",
+    "summary": "Einstein's Nobel Prize-winning work that proved light behaves as particles (photons), not just waves, founding quantum mechanics.",
+    "keyEquation": "E = hf",
+    "keyEquationExplanation": "Energy of a photon equals Planck's constant times frequency",
+    "sections": [
+      {
+        "title": "The Mystery",
+        "content": "When light hits certain metals, electrons are ejected. But classical wave theory couldn't explain why:\n• Dim blue light ejects electrons, but bright red light doesn't\n• Electron energy depends on light frequency, not intensity\n• Electrons are ejected instantly, with no time delay"
+      },
+      {
+        "title": "Einstein's Quantum Leap",
+        "content": "Einstein proposed light comes in discrete packets (quanta) called photons. Each photon carries energy E = hf, where h is Planck's constant and f is frequency.\n\nWhen a photon hits an electron:\n• If E > work function, electron escapes\n• Excess energy becomes kinetic energy\n• More photons = more electrons, not more energy per electron"
+      },
+      {
+        "title": "Revolutionary Implications",
+        "content": "• Light has particle-like properties (wave-particle duality)\n• Energy is quantized at the atomic level\n• Founded quantum mechanics\n• Explained atomic spectra and chemical bonds"
+      },
+      {
+        "title": "Modern Technology",
+        "content": "• Solar panels convert photons to electricity\n• Digital cameras use photoelectric sensors\n• Photomultiplier tubes in medical imaging\n• Quantum computing and cryptography"
+      }
+    ],
+    "funFacts": [
+      "Einstein won the Nobel Prize for THIS work, not relativity!",
+      "He called photons 'light quanta' - the term 'photon' came later",
+      "This paper was published in the same 'miracle year' (1905) as special relativity",
+      "Even Einstein was uncomfortable with the full implications of quantum mechanics"
+    ],
+    "equations": [
+      {
+        "formula": "KEmax = hf - φ",
+        "name": "Photoelectric Equation",
+        "explanation": "Maximum kinetic energy of ejected electrons"
+      },
+      {
+        "formula": "p = h/λ",
+        "name": "Photon Momentum",
+        "explanation": "Momentum of a photon (de Broglie relation)"
+      },
+      {
+        "formula": "f₀ = φ/h",
+        "name": "Threshold Frequency",
+        "explanation": "Minimum frequency needed to eject electrons"
+      }
+    ]
+  },
+  {
+    "id": "brownian_motion",
+    "title": "On the Motion of Small Particles Suspended in a Stationary Liquid",
+    "subtitle": "Brownian Motion",
+    "year": "1905",
+    "type": "Major Work",
+    "icon": "🔬",
+    "summary": "Einstein's mathematical proof that atoms and molecules exist, by explaining the random jittering of particles in fluids.",
+    "keyEquation": "⟨x²⟩ = 2Dt",
+    "keyEquationExplanation": "Mean squared displacement equals 2 times diffusion coefficient times time",
+    "sections": [
+      {
+        "title": "The Puzzle",
+        "content": "In 1827, botanist Robert Brown observed pollen grains jittering randomly in water under a microscope. For decades, scientists debated: What causes this motion? Are atoms real?"
+      },
+      {
+        "title": "Einstein's Brilliant Solution",
+        "content": "Einstein proved the jittering is caused by invisible water molecules constantly bombarding the pollen grains. He derived equations predicting:\n• How far particles move over time\n• How temperature affects motion\n• The size of molecules\n\nThis provided the first direct evidence that atoms and molecules actually exist!"
+      },
+      {
+        "title": "The Mathematical Beauty",
+        "content": "Einstein used statistical mechanics to show that the random walk of particles follows predictable patterns. The average distance traveled grows with the square root of time, not linearly."
+      },
+      {
+        "title": "Impact and Applications",
+        "content": "• Proved atomic theory (some scientists still doubted atoms existed!)\n• Founded statistical physics\n• Explained diffusion processes\n• Modern applications: drug delivery, pollution tracking, stock market models"
+      }
+    ],
+    "funFacts": [
+      "This was Einstein's PhD thesis topic - he got his doctorate in 1905",
+      "Jean Perrin won the Nobel Prize in 1926 for experimentally confirming Einstein's predictions",
+      "Einstein never actually observed Brownian motion himself",
+      "The same math describes stock prices, forest fires, and internet traffic"
+    ],
+    "equations": [
+      {
+        "formula": "D = RT/6πηrN_A",
+        "name": "Einstein-Stokes Equation",
+        "explanation": "Diffusion coefficient for spherical particles"
+      },
+      {
+        "formula": "N_A = RT/6πηrD",
+        "name": "Avogadro's Number",
+        "explanation": "Einstein's method to calculate Avogadro's number"
+      },
+      {
+        "formula": "⟨Δx⟩ = 0, ⟨Δx²⟩ ≠ 0",
+        "name": "Random Walk",
+        "explanation": "Average displacement is zero, but mean squared displacement isn't"
+      }
+    ]
+  }
+]

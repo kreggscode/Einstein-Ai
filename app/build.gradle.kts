@@ -12,9 +12,9 @@ android {
 
     defaultConfig {
         applicationId = "com.kreggscode.einsteinquotes"
-        minSdk = 24
+        minSdk = 26
         targetSdk = 36
-        versionCode = 6
+        versionCode = 3
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
@@ -62,6 +62,7 @@ android {
 dependencies {
     // Core Android
     implementation("androidx.core:core-ktx:1.17.0")
+    implementation("androidx.core:core-splashscreen:1.0.1")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.9.4")
     implementation("androidx.activity:activity-compose:1.11.0")
     

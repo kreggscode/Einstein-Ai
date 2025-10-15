@@ -16,6 +16,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import com.kreggscode.einsteinquotes.R
 import com.kreggscode.einsteinquotes.ui.components.MorphismCard
 
@@ -62,7 +63,7 @@ fun AboutScreen(
                         Text(
                             text = "🧠",
                             style = MaterialTheme.typography.displayLarge,
-                            fontSize = androidx.compose.ui.unit.sp.times(80)
+                            fontSize = 80.sp
                         )
                         
                         Spacer(modifier = Modifier.height(16.dp))

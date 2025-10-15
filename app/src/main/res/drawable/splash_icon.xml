@@ -1,55 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
     android:width="108dp"
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
     
-    <!-- Outer glow circle -->
+    <!-- Radial gradient background -->
+    <path android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="radial"
+                android:centerX="54"
+                android:centerY="54"
+                android:gradientRadius="54">
+                <item android:offset="0" android:color="#7C3AED"/>
+                <item android:offset="0.5" android:color="#6366F1"/>
+                <item android:offset="1" android:color="#3B82F6"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+    
+    <!-- Outer glow rings -->
     <path
-        android:fillColor="#4060A5FA"
-        android:pathData="M54,54m-48,0a48,48 0,1 1,96 0a48,48 0,1 1,-96 0" />
+        android:strokeColor="#60A5FA"
+        android:strokeWidth="2"
+        android:fillColor="#00000000"
+        android:pathData="M54,54m-46,0a46,46 0,1 1,92 0a46,46 0,1 1,-92 0"
+        android:strokeAlpha="0.3" />
     
-    <!-- Main circle background -->
-    <path
-        android:fillColor="#60A5FA"
-        android:pathData="M54,54m-40,0a40,40 0,1 1,80 0a40,40 0,1 1,-80 0" />
-    
-    <!-- Inner circle (brain/atom representation) -->
-    <path
-        android:fillColor="#FFFFFF"
-        android:pathData="M54,54m-32,0a32,32 0,1 1,64 0a32,32 0,1 1,-64 0" />
-    
-    <!-- E=mc² stylized representation -->
-    <group
-        android:translateX="54"
-        android:translateY="54">
-        <!-- E -->
-        <path
-            android:fillColor="#1E3A8A"
-            android:pathData="M-18,-8 L-18,8 L-10,8 L-10,4 L-14,4 L-14,0 L-10,0 L-10,-4 L-14,-4 L-14,-8 Z" />
-        
-        <!-- = -->
-        <path
-            android:fillColor="#7C3AED"
-            android:pathData="M-6,-2 L2,-2 L2,-4 L-6,-4 Z M-6,2 L2,2 L2,4 L-6,4 Z" />
-        
-        <!-- m -->
-        <path
-            android:fillColor="#1E3A8A"
-            android:pathData="M6,-4 L6,8 L8,8 L8,0 L10,0 L10,8 L12,8 L12,0 L14,0 L14,8 L16,8 L16,-4 Z" />
-    </group>
-    
-    <!-- Orbital rings (atom-like) -->
     <path
         android:strokeColor="#A78BFA"
-        android:strokeWidth="1.5"
+        android:strokeWidth="2"
         android:fillColor="#00000000"
-        android:pathData="M54,30 A24,12 0 1,1 54,78 A24,12 0 1,1 54,30" />
+        android:pathData="M54,54m-42,0a42,42 0,1 1,84 0a42,42 0,1 1,-84 0"
+        android:strokeAlpha="0.5" />
+    
+    <!-- Main brain icon -->
+    <group
+        android:translateX="54"
+        android:translateY="54"
+        android:scaleX="1.5"
+        android:scaleY="1.5">
+        <!-- Brain outline -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M-8,-12 Q-12,-12 -14,-9 Q-16,-6 -16,-2 Q-16,2 -14,5 Q-12,8 -8,8 L8,8 Q12,8 14,5 Q16,2 16,-2 Q16,-6 14,-9 Q12,-12 8,-12 Z M-6,-10 Q-4,-10 -3,-8 Q-2,-6 -2,-4 L-2,4 Q-2,6 -4,6 L-6,6 Q-8,6 -8,4 L-8,-4 Q-8,-6 -6,-8 Q-5,-10 -6,-10 Z M6,-10 Q8,-10 8,-8 L8,-4 L8,4 Q8,6 6,6 L4,6 Q2,6 2,4 L2,-4 Q2,-6 3,-8 Q4,-10 6,-10 Z" />
+    </group>
+    
+    <!-- Animated orbital particles -->
+    <path
+        android:fillColor="#F472B6"
+        android:pathData="M54,20m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" />
     
     <path
-        android:strokeColor="#F472B6"
+        android:fillColor="#60A5FA"
+        android:pathData="M88,54m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" />
+    
+    <path
+        android:fillColor="#A78BFA"
+        android:pathData="M54,88m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" />
+    
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M20,54m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" />
+    
+    <!-- Orbital rings -->
+    <path
+        android:strokeColor="#FFFFFF"
         android:strokeWidth="1.5"
         android:fillColor="#00000000"
-        android:pathData="M30,54 A12,24 0 1,1 78,54 A12,24 0 1,1 30,54" />
+        android:pathData="M54,24 A30,15 0 1,1 54,84 A30,15 0 1,1 54,24"
+        android:strokeAlpha="0.4" />
+    
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"
+        android:pathData="M24,54 A15,30 0 1,1 84,54 A15,30 0 1,1 24,54"
+        android:strokeAlpha="0.4" />
 </vector>

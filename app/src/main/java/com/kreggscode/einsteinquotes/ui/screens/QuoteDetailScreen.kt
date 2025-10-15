@@ -1,4 +1,4 @@
-﻿package com.kreggscode.einsteinquotes.ui.screens
+package com.kreggscode.einsteinquotes.ui.screens
 
 import android.content.ClipData
 import android.content.ClipboardManager
@@ -149,7 +149,7 @@ fun QuoteDetailScreen(
                                     color = Color.White
                                 )
                                 
-                                if (quote.French.isNotBlank()) {
+                                if (!quote.French.isNullOrBlank()) {
                                     Spacer(modifier = Modifier.height(16.dp))
                                     Divider(color = Color.White.copy(alpha = 0.3f))
                                     Spacer(modifier = Modifier.height(16.dp))
@@ -219,7 +219,7 @@ fun QuoteDetailScreen(
                 }
                 
                 // Copy and Speak French
-                if (quote.French.isNotBlank()) {
+                if (!quote.French.isNullOrBlank()) {
                     item {
                         Row(
                             modifier = Modifier.fillMaxWidth(),
@@ -228,7 +228,7 @@ fun QuoteDetailScreen(
                             // Copy French
                             Button(
                                 onClick = {
-                                    val frenchText = quote.French.replace("[translate:", "").replace("]", "")
+                                    val frenchText = quote.French?.replace("[translate:", "")?.replace("]", "") ?: ""
                                     val clipboard = context.getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
                                     val clip = ClipData.newPlainText("quote", frenchText)
                                     clipboard.setPrimaryClip(clip)
@@ -247,7 +247,7 @@ fun QuoteDetailScreen(
                             // Speak French
                             Button(
                                 onClick = {
-                                    val frenchText = quote.French.replace("[translate:", "").replace("]", "")
+                                    val frenchText = quote.French?.replace("[translate:", "")?.replace("]", "") ?: ""
                                     tts?.language = Locale.FRENCH
                                     tts?.speak(frenchText, TextToSpeech.QUEUE_FLUSH, null, null)
                                 },

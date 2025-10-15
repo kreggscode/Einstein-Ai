@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1,
+    "affirmation": "I embrace curiosity as the foundation of all knowledge and discovery.",
+    "category": "Curiosity"
+  },
+  {
+    "id": 2,
+    "affirmation": "My imagination is more powerful than any knowledge I possess.",
+    "category": "Imagination"
+  },
+  {
+    "id": 3,
+    "affirmation": "I find wonder in the mysteries that surround me every day.",
+    "category": "Wonder"
+  },
+  {
+    "id": 4,
+    "affirmation": "I persist through challenges, knowing that failure is part of success.",
+    "category": "Perseverance"
+  },
+  {
+    "id": 5,
+    "affirmation": "I question everything and seek deeper understanding.",
+    "category": "Questioning"
+  },
+  {
+    "id": 6,
+    "affirmation": "I am capable of understanding complex ideas through patience and focus.",
+    "category": "Learning"
+  },
+  {
+    "id": 7,
+    "affirmation": "I embrace simplicity in solving life's most complex problems.",
+    "category": "Simplicity"
+  },
+  {
+    "id": 8,
+    "affirmation": "I trust in the power of creative thinking to transform my reality.",
+    "category": "Creativity"
+  },
+  {
+    "id": 9,
+    "affirmation": "I am open to new perspectives and ways of seeing the world.",
+    "category": "Open-mindedness"
+  },
+  {
+    "id": 10,
+    "affirmation": "I find beauty in the elegant simplicity of natural laws.",
+    "category": "Beauty"
+  },
+  {
+    "id": 11,
+    "affirmation": "I cultivate wonder and never lose my sense of amazement.",
+    "category": "Wonder"
+  },
+  {
+    "id": 12,
+    "affirmation": "I approach each day with childlike curiosity and enthusiasm.",
+    "category": "Enthusiasm"
+  },
+  {
+    "id": 13,
+    "affirmation": "I am patient with myself as I learn and grow.",
+    "category": "Patience"
+  },
+  {
+    "id": 14,
+    "affirmation": "I trust my intuition to guide me toward truth.",
+    "category": "Intuition"
+  },
+  {
+    "id": 15,
+    "affirmation": "I embrace uncertainty as an opportunity for discovery.",
+    "category": "Courage"
+  },
+  {
+    "id": 16,
+    "affirmation": "I find joy in the process of learning, not just the outcome.",
+    "category": "Joy"
+  },
+  {
+    "id": 17,
+    "affirmation": "I am capable of revolutionary thinking and breakthrough ideas.",
+    "category": "Innovation"
+  },
+  {
+    "id": 18,
+    "affirmation": "I see connections where others see separation.",
+    "category": "Insight"
+  },
+  {
+    "id": 19,
+    "affirmation": "I am humble before the vastness of what I don't yet know.",
+    "category": "Humility"
+  },
+  {
+    "id": 20,
+    "affirmation": "I pursue knowledge for its own sake, not for external rewards.",
+    "category": "Purpose"
+  },
+  {
+    "id": 21,
+    "affirmation": "I am creative, curious, and constantly evolving.",
+    "category": "Growth"
+  },
+  {
+    "id": 22,
+    "affirmation": "I trust that the universe is comprehensible and knowable.",
+    "category": "Faith"
+  },
+  {
+    "id": 23,
+    "affirmation": "I find peace in contemplating the mysteries of existence.",
+    "category": "Peace"
+  },
+  {
+    "id": 24,
+    "affirmation": "I am not afraid to challenge conventional wisdom.",
+    "category": "Courage"
+  },
+  {
+    "id": 25,
+    "affirmation": "I embrace solitude as a space for deep thinking.",
+    "category": "Solitude"
+  },
+  {
+    "id": 26,
+    "affirmation": "I am part of something infinitely larger than myself.",
+    "category": "Connection"
+  },
+  {
+    "id": 27,
+    "affirmation": "I approach problems with playfulness and creativity.",
+    "category": "Playfulness"
+  },
+  {
+    "id": 28,
+    "affirmation": "I trust in the power of thought experiments to reveal truth.",
+    "category": "Imagination"
+  },
+  {
+    "id": 29,
+    "affirmation": "I am disciplined in my pursuit of understanding.",
+    "category": "Discipline"
+  },
+  {
+    "id": 30,
+    "affirmation": "I find inspiration in music, art, and the beauty around me.",
+    "category": "Inspiration"
+  },
+  {
+    "id": 31,
+    "affirmation": "I am capable of seeing beyond the obvious to deeper truths.",
+    "category": "Insight"
+  },
+  {
+    "id": 32,
+    "affirmation": "I embrace failure as a teacher and guide.",
+    "category": "Resilience"
+  },
+  {
+    "id": 33,
+    "affirmation": "I trust my unique perspective and voice.",
+    "category": "Authenticity"
+  },
+  {
+    "id": 34,
+    "affirmation": "I am patient with the slow unfolding of understanding.",
+    "category": "Patience"
+  },
+  {
+    "id": 35,
+    "affirmation": "I find wonder in both the cosmic and the ordinary.",
+    "category": "Wonder"
+  },
+  {
+    "id": 36,
+    "affirmation": "I am committed to lifelong learning and growth.",
+    "category": "Commitment"
+  },
+  {
+    "id": 37,
+    "affirmation": "I trust in the elegance of simple, fundamental principles.",
+    "category": "Simplicity"
+  },
+  {
+    "id": 38,
+    "affirmation": "I am open to revising my beliefs when presented with new evidence.",
+    "category": "Flexibility"
+  },
+  {
+    "id": 39,
+    "affirmation": "I find joy in contemplating the infinite.",
+    "category": "Joy"
+  },
+  {
+    "id": 40,
+    "affirmation": "I am capable of sustained focus and deep concentration.",
+    "category": "Focus"
+  },
+  {
+    "id": 41,
+    "affirmation": "I embrace paradox as a doorway to deeper understanding.",
+    "category": "Wisdom"
+  },
+  {
+    "id": 42,
+    "affirmation": "I trust that persistence will lead to breakthrough.",
+    "category": "Persistence"
+  },
+  {
+    "id": 43,
+    "affirmation": "I am inspired by the harmony and order of the universe.",
+    "category": "Harmony"
+  },
+  {
+    "id": 44,
+    "affirmation": "I find strength in my independence of thought.",
+    "category": "Independence"
+  },
+  {
+    "id": 45,
+    "affirmation": "I am humble before nature's profound mysteries.",
+    "category": "Humility"
+  },
+  {
+    "id": 46,
+    "affirmation": "I trust in the power of reason combined with imagination.",
+    "category": "Balance"
+  },
+  {
+    "id": 47,
+    "affirmation": "I am capable of revolutionary insights and paradigm shifts.",
+    "category": "Innovation"
+  },
+  {
+    "id": 48,
+    "affirmation": "I find peace in the pursuit of truth.",
+    "category": "Peace"
+  },
+  {
+    "id": 49,
+    "affirmation": "I embrace the unknown with courage and curiosity.",
+    "category": "Courage"
+  },
+  {
+    "id": 50,
+    "affirmation": "I am patient with the slow process of discovery.",
+    "category": "Patience"
+  },
+  {
+    "id": 51,
+    "affirmation": "I trust my ability to solve complex problems creatively.",
+    "category": "Confidence"
+  },
+  {
+    "id": 52,
+    "affirmation": "I find inspiration in the interconnectedness of all things.",
+    "category": "Unity"
+  },
+  {
+    "id": 53,
+    "affirmation": "I am open to learning from everyone and everything.",
+    "category": "Openness"
+  },
+  {
+    "id": 54,
+    "affirmation": "I embrace simplicity as the ultimate sophistication.",
+    "category": "Simplicity"
+  },
+  {
+    "id": 55,
+    "affirmation": "I trust in the beauty of mathematical and natural harmony.",
+    "category": "Beauty"
+  },
+  {
+    "id": 56,
+    "affirmation": "I am capable of seeing the extraordinary in the ordinary.",
+    "category": "Perception"
+  },
+  {
+    "id": 57,
+    "affirmation": "I find joy in the pursuit of knowledge for its own sake.",
+    "category": "Joy"
+  },
+  {
+    "id": 58,
+    "affirmation": "I am disciplined yet playful in my approach to problems.",
+    "category": "Balance"
+  },
+  {
+    "id": 59,
+    "affirmation": "I trust that the universe rewards persistent curiosity.",
+    "category": "Faith"
+  },
+  {
+    "id": 60,
+    "affirmation": "I embrace the mystery and wonder of existence.",
+    "category": "Wonder"
+  },
+  {
+    "id": 61,
+    "affirmation": "I am capable of thinking beyond conventional boundaries.",
+    "category": "Freedom"
+  },
+  {
+    "id": 62,
+    "affirmation": "I find strength in my commitment to truth and understanding.",
+    "category": "Integrity"
+  },
+  {
+    "id": 63,
+    "affirmation": "I am patient with myself and others in the learning process.",
+    "category": "Compassion"
+  },
+  {
+    "id": 64,
+    "affirmation": "I trust in the power of focused attention and deep work.",
+    "category": "Focus"
+  },
+  {
+    "id": 65,
+    "affirmation": "I embrace both logic and intuition as paths to truth.",
+    "category": "Balance"
+  },
+  {
+    "id": 66,
+    "affirmation": "I am inspired by the elegance of fundamental principles.",
+    "category": "Inspiration"
+  },
+  {
+    "id": 67,
+    "affirmation": "I find peace in contemplating the infinite cosmos.",
+    "category": "Peace"
+  },
+  {
+    "id": 68,
+    "affirmation": "I am capable of sustained intellectual effort and concentration.",
+    "category": "Discipline"
+  },
+  {
+    "id": 69,
+    "affirmation": "I trust my unique way of seeing and understanding the world.",
+    "category": "Authenticity"
+  },
+  {
+    "id": 70,
+    "affirmation": "I embrace uncertainty as the birthplace of possibility.",
+    "category": "Courage"
+  },
+  {
+    "id": 71,
+    "affirmation": "I am open to revolutionary ideas and paradigm shifts.",
+    "category": "Openness"
+  },
+  {
+    "id": 72,
+    "affirmation": "I find joy in the beauty of mathematical truth.",
+    "category": "Joy"
+  },
+  {
+    "id": 73,
+    "affirmation": "I am humble before the vastness of what remains unknown.",
+    "category": "Humility"
+  },
+  {
+    "id": 74,
+    "affirmation": "I trust in the power of imagination to transform reality.",
+    "category": "Imagination"
+  },
+  {
+    "id": 75,
+    "affirmation": "I embrace solitude as essential for deep thinking.",
+    "category": "Solitude"
+  },
+  {
+    "id": 76,
+    "affirmation": "I am capable of seeing connections others miss.",
+    "category": "Insight"
+  },
+  {
+    "id": 77,
+    "affirmation": "I find inspiration in nature's profound simplicity.",
+    "category": "Nature"
+  },
+  {
+    "id": 78,
+    "affirmation": "I am patient with the gradual unfolding of understanding.",
+    "category": "Patience"
+  },
+  {
+    "id": 79,
+    "affirmation": "I trust that persistence leads to breakthrough insights.",
+    "category": "Persistence"
+  },
+  {
+    "id": 80,
+    "affirmation": "I embrace the childlike wonder that fuels discovery.",
+    "category": "Wonder"
+  },
+  {
+    "id": 81,
+    "affirmation": "I am committed to understanding over mere knowing.",
+    "category": "Depth"
+  },
+  {
+    "id": 82,
+    "affirmation": "I find peace in the pursuit of fundamental truths.",
+    "category": "Peace"
+  },
+  {
+    "id": 83,
+    "affirmation": "I am capable of revolutionary thinking and innovation.",
+    "category": "Innovation"
+  },
+  {
+    "id": 84,
+    "affirmation": "I trust in the harmony and order underlying all phenomena.",
+    "category": "Harmony"
+  },
+  {
+    "id": 85,
+    "affirmation": "I embrace both reason and intuition as guides to truth.",
+    "category": "Balance"
+  },
+  {
+    "id": 86,
+    "affirmation": "I am inspired by the infinite possibilities of the mind.",
+    "category": "Inspiration"
+  },
+  {
+    "id": 87,
+    "affirmation": "I find joy in the elegant simplicity of natural laws.",
+    "category": "Joy"
+  },
+  {
+    "id": 88,
+    "affirmation": "I am patient with the slow process of genuine understanding.",
+    "category": "Patience"
+  },
+  {
+    "id": 89,
+    "affirmation": "I trust my ability to think independently and originally.",
+    "category": "Independence"
+  },
+  {
+    "id": 90,
+    "affirmation": "I embrace the mystery that lies at the heart of existence.",
+    "category": "Mystery"
+  },
+  {
+    "id": 91,
+    "affirmation": "I am capable of sustained focus on what truly matters.",
+    "category": "Focus"
+  },
+  {
+    "id": 92,
+    "affirmation": "I find strength in my commitment to truth and integrity.",
+    "category": "Integrity"
+  },
+  {
+    "id": 93,
+    "affirmation": "I am open to learning from every experience and encounter.",
+    "category": "Openness"
+  },
+  {
+    "id": 94,
+    "affirmation": "I trust in the power of creative imagination.",
+    "category": "Creativity"
+  },
+  {
+    "id": 95,
+    "affirmation": "I embrace the wonder and awe of cosmic mysteries.",
+    "category": "Awe"
+  },
+  {
+    "id": 96,
+    "affirmation": "I am capable of breakthrough insights through persistent inquiry.",
+    "category": "Breakthrough"
+  },
+  {
+    "id": 97,
+    "affirmation": "I find peace in the pursuit of understanding.",
+    "category": "Peace"
+  },
+  {
+    "id": 98,
+    "affirmation": "I am humble yet confident in my unique perspective.",
+    "category": "Balance"
+  },
+  {
+    "id": 99,
+    "affirmation": "I trust that curiosity is the key to all discovery.",
+    "category": "Curiosity"
+  },
+  {
+    "id": 100,
+    "affirmation": "I embrace the infinite potential within my mind and spirit.",
+    "category": "Potential"
+  }
+]

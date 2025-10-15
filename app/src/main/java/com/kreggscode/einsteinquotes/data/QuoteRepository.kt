@@ -1,4 +1,4 @@
-﻿package com.kreggscode.einsteinquotes.data
+package com.kreggscode.einsteinquotes.data
 
 import android.content.Context
 import com.kreggscode.einsteinquotes.model.Quote
@@ -21,9 +21,12 @@ class QuoteRepository(private val quoteDao: QuoteDao, private val context: Conte
         try {
             // Check if database already has quotes
             val existingQuotes = quoteDao.getQuoteCount()
-            if (existingQuotes > 0) {
+            if (existingQuotes > 700) { // Only skip if we have most quotes loaded
                 android.util.Log.d("QuoteRepository", "Database already has $existingQuotes quotes, skipping load")
                 return
+            } else if (existingQuotes > 0) {
+                android.util.Log.d("QuoteRepository", "Database has only $existingQuotes quotes, reloading...")
+                quoteDao.deleteAll() // Clear partial data
             }
             
             android.util.Log.d("QuoteRepository", "Loading quotes from assets...")
@@ -40,8 +43,10 @@ class QuoteRepository(private val quoteDao: QuoteDao, private val context: Conte
             val quotes2 = json.decodeFromString<List<Quote>>(dataset2Json)
             android.util.Log.d("QuoteRepository", "Dataset2 parsed: ${quotes2.size} quotes")
             
-            // Merge and clean data
-            val allQuotes = (quotes1 + quotes2).map { it.toMergedQuote() }
+            // Merge and clean data, filter out header rows
+            val allQuotes = (quotes1 + quotes2)
+                .filter { it.Quote != "Quote" && it.Category != "Category" } // Skip header rows
+                .map { it.toMergedQuote() }
             android.util.Log.d("QuoteRepository", "Total quotes to insert: ${allQuotes.size}")
             
             // Insert into database

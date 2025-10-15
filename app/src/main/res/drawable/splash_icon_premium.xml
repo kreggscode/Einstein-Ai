@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Background gradient circle -->
+    <path
+        android:pathData="M54,54m-50,0a50,50 0,1 1,100 0a50,50 0,1 1,-100 0"
+        android:fillColor="#7C3AED" />
+    
+    <path
+        android:pathData="M54,54m-45,0a45,45 0,1 1,90 0a45,45 0,1 1,-90 0"
+        android:fillColor="#6366F1" />
+    
+    <path
+        android:pathData="M54,54m-40,0a40,40 0,1 1,80 0a40,40 0,1 1,-80 0"
+        android:fillColor="#3B82F6" />
+    
+    <!-- Brain icon (simplified) -->
+    <group
+        android:translateX="54"
+        android:translateY="54">
+        <!-- Left hemisphere -->
+        <path
+            android:pathData="M-15,-12 Q-20,-12 -22,-8 Q-24,-4 -24,0 Q-24,4 -22,8 Q-20,12 -15,12 L-5,12 Q-3,12 -3,10 L-3,-10 Q-3,-12 -5,-12 Z"
+            android:fillColor="#FFFFFF" />
+        
+        <!-- Right hemisphere -->
+        <path
+            android:pathData="M5,-12 Q3,-12 3,-10 L3,10 Q3,12 5,12 L15,12 Q20,12 22,8 Q24,4 24,0 Q24,-4 22,-8 Q20,-12 15,-12 Z"
+            android:fillColor="#FFFFFF" />
+        
+        <!-- Brain details (folds) -->
+        <path
+            android:pathData="M-18,-6 Q-16,-6 -15,-4 Q-14,-2 -14,0 L-14,6 Q-14,8 -16,8 L-18,8"
+            android:strokeColor="#7C3AED"
+            android:strokeWidth="1.5"
+            android:fillColor="@android:color/transparent" />
+        
+        <path
+            android:pathData="M18,-6 Q16,-6 15,-4 Q14,-2 14,0 L14,6 Q14,8 16,8 L18,8"
+            android:strokeColor="#7C3AED"
+            android:strokeWidth="1.5"
+            android:fillColor="@android:color/transparent" />
+        
+        <!-- Center connection -->
+        <path
+            android:pathData="M-3,0 L3,0"
+            android:strokeColor="#7C3AED"
+            android:strokeWidth="2"
+            android:fillColor="@android:color/transparent" />
+    </group>
+    
+    <!-- Sparkles around brain -->
+    <group android:translateX="54" android:translateY="54">
+        <!-- Top sparkle -->
+        <path
+            android:pathData="M0,-28 L1,-26 L3,-25 L1,-24 L0,-22 L-1,-24 L-3,-25 L-1,-26 Z"
+            android:fillColor="#FFFFFF" />
+        
+        <!-- Right sparkle -->
+        <path
+            android:pathData="M28,0 L26,1 L25,3 L24,1 L22,0 L24,-1 L25,-3 L26,-1 Z"
+            android:fillColor="#FFFFFF" />
+        
+        <!-- Bottom sparkle -->
+        <path
+            android:pathData="M0,28 L1,26 L3,25 L1,24 L0,22 L-1,24 L-3,25 L-1,26 Z"
+            android:fillColor="#FFFFFF" />
+        
+        <!-- Left sparkle -->
+        <path
+            android:pathData="M-28,0 L-26,1 L-25,3 L-24,1 L-22,0 L-24,-1 L-25,-3 L-26,-1 Z"
+            android:fillColor="#FFFFFF" />
+    </group>
+    
+    <!-- Outer glow ring -->
+    <path
+        android:pathData="M54,54m-52,0a52,52 0,1 1,104 0a52,52 0,1 1,-104 0"
+        android:strokeColor="#60A5FA"
+        android:strokeWidth="1"
+        android:strokeAlpha="0.3"
+        android:fillColor="@android:color/transparent" />
+</vector>

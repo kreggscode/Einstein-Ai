@@ -1,4 +1,4 @@
-﻿package com.kreggscode.einsteinquotes.data
+package com.kreggscode.einsteinquotes.data
 
 import android.content.Context
 import androidx.room.Database
@@ -6,7 +6,7 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import com.kreggscode.einsteinquotes.model.Quote
 
-@Database(entities = [Quote::class], version = 1, exportSchema = false)
+@Database(entities = [Quote::class], version = 3, exportSchema = false)
 abstract class QuoteDatabase : RoomDatabase() {
     abstract fun quoteDao(): QuoteDao
     
@@ -19,8 +19,10 @@ abstract class QuoteDatabase : RoomDatabase() {
                 val instance = Room.databaseBuilder(
                     context.applicationContext,
                     QuoteDatabase::class.java,
-                    "voltaire_database"
-                ).build()
+                    "einstein_quotes_database"
+                )
+                    .fallbackToDestructiveMigration()
+                    .build()
                 INSTANCE = instance
                 instance
             }

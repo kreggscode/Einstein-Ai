@@ -1,4 +1,4 @@
-﻿package com.kreggscode.einsteinquotes.navigation
+package com.kreggscode.einsteinquotes.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
@@ -25,7 +25,23 @@ sealed class Screen(val route: String) {
     object WorkQuotes : Screen("work_quotes/{work}") {
         fun createRoute(work: String) = "work_quotes/$work"
     }
+    object WorkDetail : Screen("work_detail/{workId}") {
+        fun createRoute(workId: String) = "work_detail/$workId"
+    }
+    object EssayDetail : Screen("essay_detail/{essayId}") {
+        fun createRoute(essayId: String) = "essay_detail/$essayId"
+    }
+    object LetterDetail : Screen("letter_detail/{letterId}") {
+        fun createRoute(letterId: String) = "letter_detail/$letterId"
+    }
+    object PaperDetail : Screen("paper_detail/{paperId}") {
+        fun createRoute(paperId: String) = "paper_detail/$paperId"
+    }
     object About : Screen("about")
+    object QuoteOfDay : Screen("quote_of_day")
+    object Affirmations : Screen("affirmations?openFavorites={openFavorites}") {
+        fun createRoute(openFavorites: Boolean = false) = "affirmations?openFavorites=$openFavorites"
+    }
 }
 
 @Composable
@@ -39,18 +55,18 @@ fun NavGraph(
         startDestination = Screen.Home.route
     ) {
         composable(Screen.Home.route) {
-            HomeScreen(
+            PremiumHomeScreen(
                 viewModel = quoteViewModel,
                 onCategoryClick = { category ->
                     navController.navigate(Screen.CategoryQuotes.createRoute(category))
                 },
-                onQuoteClick = { quoteId ->
-                    navController.navigate(Screen.QuoteDetail.createRoute(quoteId))
+                onQuoteClick = { quote ->
+                    navController.navigate(Screen.QuoteDetail.createRoute(quote.id))
                 },
                 onAboutClick = {
                     navController.navigate(Screen.About.route)
                 },
-                onWorksClick = {
+                onWorkClick = {
                     navController.navigate(Screen.Works.route) {
                         popUpTo(Screen.Home.route) {
                             saveState = true
@@ -59,12 +75,24 @@ fun NavGraph(
                         launchSingleTop = true
                         restoreState = true
                     }
+                },
+                onQuoteOfDayClick = {
+                    navController.navigate(Screen.QuoteOfDay.route)
+                },
+                onAffirmationsClick = {
+                    navController.navigate(Screen.Affirmations.createRoute(false))
+                },
+                onFavoritesClick = {
+                    navController.navigate(Screen.Favorites.route)
+                },
+                onChatClick = {
+                    navController.navigate(Screen.Chat.route)
                 }
             )
         }
         
         composable(Screen.Chat.route) {
-            ChatScreen(
+            PremiumChatScreen(
                 viewModel = chatViewModel,
                 onBackClick = {
                     navController.popBackStack()
@@ -73,7 +101,7 @@ fun NavGraph(
         }
         
         composable(Screen.Favorites.route) {
-            FavoritesScreen(
+            PremiumFavoritesScreen(
                 viewModel = quoteViewModel,
                 onQuoteClick = { quoteId ->
                     navController.navigate(Screen.QuoteDetail.createRoute(quoteId))
@@ -82,19 +110,35 @@ fun NavGraph(
         }
         
         composable(Screen.Works.route) {
-            WorksScreen(
-                viewModel = quoteViewModel,
-                onWorkClick = { work ->
-                    navController.navigate(Screen.WorkQuotes.createRoute(work))
-                },
+            EinsteinWorksScreen(
                 onBackClick = {
                     navController.popBackStack()
+                },
+                onWorkClick = { workItem ->
+                    when (workItem.category) {
+                        WorkCategory.MAJOR_WORKS -> {
+                            navController.navigate(Screen.WorkDetail.createRoute(workItem.id))
+                        }
+                        WorkCategory.ESSAYS -> {
+                            navController.navigate(Screen.EssayDetail.createRoute(workItem.id))
+                        }
+                        WorkCategory.LETTERS -> {
+                            navController.navigate(Screen.LetterDetail.createRoute(workItem.id))
+                        }
+                        WorkCategory.PAPERS -> {
+                            navController.navigate(Screen.PaperDetail.createRoute(workItem.id))
+                        }
+                    }
+                },
+                onChatClick = { prompt ->
+                    // TODO: Pass prompt to chat
+                    navController.navigate(Screen.Chat.route)
                 }
             )
         }
         
         composable(Screen.Settings.route) {
-            SettingsScreen(
+            PremiumSettingsScreen(
                 viewModel = quoteViewModel,
                 onAboutClick = {
                     navController.navigate(Screen.About.route)
@@ -154,9 +198,109 @@ fun NavGraph(
         }
         
         composable(Screen.About.route) {
-            AboutScreen(
+            EnhancedAboutScreen(
                 onBackClick = {
                     navController.popBackStack()
+                },
+                onWorkClick = { workId ->
+                    navController.navigate(Screen.WorkDetail.createRoute(workId))
+                }
+            )
+        }
+        
+        composable(Screen.QuoteOfDay.route) {
+            QuoteOfDayScreen(
+                viewModel = quoteViewModel,
+                onBackClick = {
+                    navController.popBackStack()
+                },
+                onChatClick = { quote ->
+                    // Pass quote to chat if needed
+                    navController.navigate(Screen.Chat.route)
+                }
+            )
+        }
+        
+        composable(
+            route = Screen.Affirmations.route,
+            arguments = listOf(
+                navArgument("openFavorites") {
+                    type = NavType.BoolType
+                    defaultValue = false
+                }
+            )
+        ) { backStackEntry ->
+            val openFavorites = backStackEntry.arguments?.getBoolean("openFavorites") ?: false
+            AffirmationsScreen(
+                viewModel = quoteViewModel,
+                openFavoritesTab = openFavorites,
+                onBackClick = {
+                    navController.popBackStack()
+                }
+            )
+        }
+        
+        // Einstein Works Detail Screens
+        composable(
+            route = Screen.WorkDetail.route,
+            arguments = listOf(navArgument("workId") { type = NavType.StringType })
+        ) { backStackEntry ->
+            val workId = backStackEntry.arguments?.getString("workId") ?: ""
+            WorkDetailScreen(
+                workId = workId,
+                onBackClick = {
+                    navController.popBackStack()
+                },
+                onChatClick = { prompt ->
+                    navController.navigate(Screen.Chat.route)
+                }
+            )
+        }
+        
+        composable(
+            route = Screen.EssayDetail.route,
+            arguments = listOf(navArgument("essayId") { type = NavType.StringType })
+        ) { backStackEntry ->
+            val essayId = backStackEntry.arguments?.getString("essayId") ?: ""
+            EssayDetailScreen(
+                essayId = essayId,
+                onBackClick = {
+                    navController.popBackStack()
+                },
+                onChatClick = { prompt ->
+                    navController.navigate(Screen.Chat.route)
+                }
+            )
+        }
+        
+        composable(
+            route = Screen.LetterDetail.route,
+            arguments = listOf(navArgument("letterId") { type = NavType.StringType })
+        ) { backStackEntry ->
+            val letterId = backStackEntry.arguments?.getString("letterId") ?: ""
+            LetterDetailScreen(
+                letterId = letterId,
+                onBackClick = {
+                    navController.popBackStack()
+                },
+                onChatClick = { prompt ->
+                    navController.navigate(Screen.Chat.route)
+                }
+            )
+        }
+        
+        composable(
+            route = Screen.PaperDetail.route,
+            arguments = listOf(navArgument("paperId") { type = NavType.StringType })
+        ) { backStackEntry ->
+            val paperId = backStackEntry.arguments?.getString("paperId") ?: ""
+            PaperDetailScreen(
+                paperId = paperId,
+                onBackClick = {
+                    navController.popBackStack()
+                },
+                onChatClick = { prompt ->
+                    navController.navigate(Screen.Chat.route)
                 }
             )
         }

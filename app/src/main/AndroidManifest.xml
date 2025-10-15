@@ -20,7 +20,7 @@
         <activity
             android:name="com.kreggscode.einsteinquotes.MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.Einstein"
+            android:theme="@style/Theme.Einstein.Splash"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

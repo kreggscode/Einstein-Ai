@@ -1,0 +1,229 @@
+[
+  {
+    "id": "annus_mirabilis_1905",
+    "title": "Annus Mirabilis Papers (Miracle Year)",
+    "year": "1905",
+    "journal": "Annalen der Physik",
+    "icon": "✨",
+    "summary": "Four groundbreaking papers published in a single year that revolutionized physics - while Einstein worked as a patent clerk.",
+    "context": "In 1905, at age 26, Einstein was working full-time at the Swiss Patent Office in Bern. In his spare time, he wrote four papers that changed physics forever. This became known as his 'Annus Mirabilis' (Miracle Year).",
+    "papers": [
+      {
+        "number": 1,
+        "title": "On a Heuristic Point of View Concerning the Production and Transformation of Light",
+        "date": "March 17, 1905",
+        "topic": "Photoelectric Effect",
+        "pages": "132-148",
+        "abstract": "Einstein proposed that light consists of discrete quanta (later called photons), explaining the photoelectric effect and founding quantum mechanics.",
+        "nobelPrize": "This paper won Einstein the 1921 Nobel Prize in Physics",
+        "keyEquation": "E = hf",
+        "impact": "• Proved light has particle properties\n• Founded quantum mechanics\n• Explained photoelectric effect\n• Led to solar cells, digital cameras, quantum computing"
+      },
+      {
+        "number": 2,
+        "title": "On the Motion of Small Particles Suspended in a Stationary Liquid",
+        "date": "May 11, 1905",
+        "topic": "Brownian Motion",
+        "pages": "549-560",
+        "abstract": "Einstein provided mathematical proof that atoms and molecules exist by explaining the random motion of particles in fluids.",
+        "keyEquation": "⟨x²⟩ = 2Dt",
+        "impact": "• Proved atoms exist\n• Founded statistical physics\n• Enabled calculation of Avogadro's number\n• Basis for diffusion theory"
+      },
+      {
+        "number": 3,
+        "title": "On the Electrodynamics of Moving Bodies",
+        "date": "June 30, 1905",
+        "topic": "Special Relativity",
+        "pages": "891-921",
+        "abstract": "Einstein introduced the Special Theory of Relativity, revolutionizing concepts of space, time, and motion.",
+        "keyEquations": ["t' = t/√(1-v²/c²)", "L' = L√(1-v²/c²)", "E = mc²"],
+        "impact": "• Unified space and time\n• Showed mass-energy equivalence\n• Explained electromagnetic phenomena\n• Foundation for modern physics"
+      },
+      {
+        "number": 4,
+        "title": "Does the Inertia of a Body Depend Upon Its Energy Content?",
+        "date": "September 27, 1905",
+        "topic": "Mass-Energy Equivalence",
+        "pages": "639-641",
+        "abstract": "A brief follow-up paper deriving the famous equation E=mc², showing mass and energy are interchangeable.",
+        "keyEquation": "E = mc²",
+        "impact": "• Most famous equation in physics\n• Explained nuclear energy\n• Led to atomic bombs and nuclear power\n• Fundamental to particle physics"
+      }
+    ],
+    "remarkableFacts": [
+      "Einstein was 26 years old and working as a patent clerk",
+      "He had no access to university libraries or laboratories",
+      "He worked on physics in his spare time, often while rocking his baby son",
+      "The papers had no footnotes or references to other work",
+      "He completed his PhD thesis the same year",
+      "None of the papers were immediately recognized as revolutionary",
+      "He continued working at the patent office until 1909"
+    ],
+    "whyMiracle": "No scientist before or since has published four papers of such fundamental importance in a single year. Each paper alone would have been a career-defining achievement. Together, they represent perhaps the greatest intellectual accomplishment in the history of science.",
+    "legacy": "The 1905 papers:\n• Founded two new fields (quantum mechanics and relativity)\n• Proved atoms exist\n• Gave us E=mc²\n• Changed our understanding of reality\n• Led to technologies from GPS to nuclear power\n• Made Einstein the most famous scientist in history"
+  },
+  {
+    "id": "general_relativity_1915",
+    "title": "The Field Equations of Gravitation",
+    "year": "1915",
+    "journal": "Preussische Akademie der Wissenschaften",
+    "date": "November 25, 1915",
+    "icon": "🌌",
+    "summary": "Einstein's presentation of the complete field equations of General Relativity to the Prussian Academy of Sciences.",
+    "context": "After 8 years of intense work following Special Relativity, Einstein completed his General Theory of Relativity. He presented it in a series of lectures to the Prussian Academy in November 1915.",
+    "abstract": "Einstein presented the final form of his field equations describing how matter and energy curve spacetime, and how this curvature produces what we experience as gravity.",
+    "theEquations": {
+      "formula": "Rμν - ½Rgμν + Λgμν = (8πG/c⁴)Tμν",
+      "name": "Einstein Field Equations",
+      "components": {
+        "Rμν": "Ricci curvature tensor - describes spacetime curvature",
+        "R": "Ricci scalar - total curvature",
+        "gμν": "Metric tensor - describes spacetime geometry",
+        "Λ": "Cosmological constant - Einstein's 'biggest blunder' (later vindicated!)",
+        "G": "Newton's gravitational constant",
+        "c": "Speed of light",
+        "Tμν": "Stress-energy tensor - describes matter and energy distribution"
+      },
+      "meaning": "The left side describes the curvature of spacetime. The right side describes the distribution of matter and energy. The equation says: Matter tells spacetime how to curve, and curved spacetime tells matter how to move."
+    },
+    "predictions": [
+      {
+        "prediction": "Light Bending",
+        "description": "Light from stars should bend when passing near the Sun",
+        "confirmed": "1919 solar eclipse expedition by Arthur Eddington",
+        "impact": "Made Einstein world-famous overnight"
+      },
+      {
+        "prediction": "Mercury's Orbit",
+        "description": "Mercury's orbit precesses 43 arcseconds per century",
+        "confirmed": "Immediately - this was a known anomaly Newton couldn't explain",
+        "impact": "First evidence General Relativity was correct"
+      },
+      {
+        "prediction": "Gravitational Time Dilation",
+        "description": "Time runs slower in stronger gravitational fields",
+        "confirmed": "1959 Pound-Rebka experiment",
+        "impact": "Essential for GPS satellites"
+      },
+      {
+        "prediction": "Gravitational Waves",
+        "description": "Accelerating masses create ripples in spacetime",
+        "confirmed": "2015 by LIGO (100 years later!)",
+        "impact": "Opened new field of gravitational wave astronomy"
+      },
+      {
+        "prediction": "Black Holes",
+        "description": "Objects can collapse to infinite density",
+        "confirmed": "1971 Cygnus X-1, 2019 Event Horizon Telescope image",
+        "impact": "Revolutionized astrophysics"
+      },
+      {
+        "prediction": "Expanding Universe",
+        "description": "The universe is not static",
+        "confirmed": "1929 by Edwin Hubble",
+        "impact": "Led to Big Bang theory"
+      }
+    ],
+    "dramaticRace": "Einstein was in a race with mathematician David Hilbert to complete the equations. Hilbert submitted his paper 5 days before Einstein, but Einstein had been working on the problem for years and presented the complete theory first. Both are credited, but Einstein's physical insight was crucial.",
+    "personalCost": "The intense work took a toll:\n• Einstein's marriage collapsed\n• He suffered health problems\n• He was exhausted and depressed\n• But he knew he had achieved something extraordinary\n\nHe wrote: 'The theory is of incomparable beauty.'",
+    "modernApplications": [
+      "GPS satellites (must correct for time dilation)",
+      "Gravitational wave detectors (LIGO, Virgo)",
+      "Black hole physics and imaging",
+      "Cosmology and the expanding universe",
+      "Tests of fundamental physics",
+      "Future: Gravitational wave communication?"
+    ],
+    "stillTesting": "Over 100 years later, scientists continue testing General Relativity:\n• LIGO detects gravitational waves\n• Event Horizon Telescope images black holes\n• Gravity Probe B tests frame-dragging\n• Pulsar timing arrays search for gravitational wave background\n\nSo far, Einstein's equations pass every test with flying colors."
+  },
+  {
+    "id": "epr_paradox_1935",
+    "title": "Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?",
+    "year": "1935",
+    "journal": "Physical Review",
+    "authors": "Einstein, Podolsky, Rosen (EPR)",
+    "date": "May 15, 1935",
+    "icon": "🎲",
+    "summary": "Einstein's famous challenge to quantum mechanics, arguing it is incomplete and introducing the concept of quantum entanglement.",
+    "context": "By 1935, Einstein was deeply troubled by quantum mechanics' probabilistic nature and the Copenhagen interpretation. He wrote this paper with colleagues Boris Podolsky and Nathan Rosen to prove quantum mechanics was incomplete.",
+    "abstract": "The EPR paper argued that if quantum mechanics is correct, then two particles can be 'entangled' such that measuring one instantly affects the other, even at vast distances. Einstein called this 'spooky action at a distance' and argued it proved quantum mechanics must be incomplete - there must be 'hidden variables' we don't know about.",
+    "theArgument": {
+      "premise1": "Reality exists independently of observation (realism)",
+      "premise2": "No influence can travel faster than light (locality)",
+      "premise3": "Quantum mechanics predicts entanglement",
+      "conclusion": "Therefore, quantum mechanics must be incomplete - there must be hidden variables determining outcomes"
+    },
+    "einsteinQuote": "\"God does not play dice with the universe.\" - Einstein's famous objection to quantum randomness\n\n\"Spooky action at a distance\" - His description of quantum entanglement",
+    "theIrony": "Einstein was trying to prove quantum mechanics WRONG. Instead, he:\n• Discovered quantum entanglement (now a real phenomenon)\n• Inspired decades of research\n• Led to quantum information theory\n• Enabled quantum computing and cryptography\n\nHe was right that entanglement exists, but wrong that it proves quantum mechanics is incomplete!",
+    "bellsTheorem": {
+      "year": "1964",
+      "scientist": "John Stewart Bell",
+      "contribution": "Bell proved that IF hidden variables exist, they must produce different statistical results than quantum mechanics. This made the question experimentally testable!",
+      "result": "Experiments in the 1970s-80s showed quantum mechanics is correct - no hidden variables. Einstein was wrong, but in the most productive way possible."
+    },
+    "modernVindication": [
+      {
+        "technology": "Quantum Entanglement",
+        "status": "Confirmed - routinely created in labs",
+        "applications": "Quantum computing, quantum cryptography, quantum teleportation"
+      },
+      {
+        "technology": "Quantum Computing",
+        "status": "Rapidly developing",
+        "applications": "Drug discovery, cryptography, optimization, AI"
+      },
+      {
+        "technology": "Quantum Cryptography",
+        "status": "Commercially available",
+        "applications": "Unhackable communication using entangled photons"
+      },
+      {
+        "technology": "Quantum Teleportation",
+        "status": "Demonstrated",
+        "applications": "Quantum networks, distributed quantum computing"
+      }
+    ],
+    "philosophicalImpact": "The EPR paper raised profound questions:\n• What is reality?\n• Does observation create reality?\n• Is the universe fundamentally random?\n• Can information travel faster than light? (No, but entanglement seems to)\n• What does 'measurement' mean?\n\nThese questions still puzzle physicists and philosophers today.",
+    "legacy": "Einstein's 'failed' attempt to disprove quantum mechanics:\n• Discovered one of nature's strangest phenomena\n• Inspired 90 years of research\n• Led to quantum information revolution\n• Earned several Nobel Prizes for others\n• May enable quantum internet and computers\n\nEven Einstein's 'mistakes' were revolutionary!"
+  },
+  {
+    "id": "unified_field_theory",
+    "title": "On the Generalized Theory of Gravitation",
+    "year": "1950",
+    "journal": "Scientific American",
+    "date": "April 1950",
+    "icon": "🔮",
+    "summary": "Einstein's last major paper, attempting to unify gravity and electromagnetism into a single theory - his unfulfilled dream.",
+    "context": "From 1920 until his death in 1955, Einstein worked obsessively on unifying all forces of nature into one elegant theory. He never succeeded, but the quest continues today.",
+    "theGoal": "Einstein wanted to find a single set of equations that would:\n• Unify gravity and electromagnetism\n• Explain quantum mechanics\n• Describe all particles and forces\n• Reveal the fundamental structure of reality\n\nHe believed: 'God does not play dice' - there must be a deterministic theory underlying quantum randomness.",
+    "whyItFailed": [
+      "The strong and weak nuclear forces weren't yet discovered",
+      "Quantum field theory was still developing",
+      "Einstein worked mostly alone, rejecting quantum mechanics",
+      "The mathematics was incredibly complex",
+      "He was ahead of his time - we still don't have a unified theory!"
+    ],
+    "approaches": [
+      {
+        "approach": "Kaluza-Klein Theory",
+        "idea": "Add extra dimensions to unify gravity and electromagnetism",
+        "status": "Inspired modern string theory"
+      },
+      {
+        "approach": "Teleparallel Gravity",
+        "idea": "Reformulate gravity using torsion instead of curvature",
+        "status": "Still studied today"
+      },
+      {
+        "approach": "Asymmetric Metric",
+        "idea": "Generalize the metric tensor to include electromagnetism",
+        "status": "Didn't work, but inspired other approaches"
+      }
+    ],
+    "modernQuest": "Today, physicists still seek Einstein's dream:\n\n**String Theory**: Unifies forces using tiny vibrating strings in 10-11 dimensions\n\n**Loop Quantum Gravity**: Quantizes spacetime itself\n\n**M-Theory**: Unifies different string theories\n\n**Quantum Field Theory**: Successfully unified electromagnetism, weak, and strong forces (Standard Model)\n\n**The Missing Piece**: Gravity still doesn't fit! We still need quantum gravity.",
+    "einsteinLastYears": "Einstein spent his last 30 years on this quest:\n• Most physicists thought he was wasting his time\n• Quantum mechanics had won - he was seen as outdated\n• He worked in relative isolation at Princeton\n• He never gave up, calculating until days before his death\n\nHe wrote: 'I have locked myself into quite hopeless scientific problems - the more so since, as an elderly man, I have remained estranged from the society here.'",
+    "wasItWasted": "No! Einstein's 'failed' quest:\n• Inspired modern unified theories\n• Developed mathematical tools still used\n• Showed the importance of unification\n• Demonstrated scientific courage and persistence\n• Raised questions we're still answering\n\nPhysicist John Wheeler said: 'Einstein was not wrong to search for a unified theory. He was just 50 years too early.'",
+    "currentStatus": "As of 2025:\n• We have unified 3 of 4 forces (electromagnetic, weak, strong)\n• Gravity remains separate\n• String theory and loop quantum gravity are leading candidates\n• No experimental evidence yet for any unified theory\n• The quest continues...\n\nEinstein's dream lives on in thousands of physicists worldwide, still seeking the 'Theory of Everything.'",
+    "finalThought": "Einstein's last words were in German, spoken to a nurse who didn't understand German. They're lost forever.\n\nBut his last written words, in an unfinished manuscript on his desk, were equations for unified field theory.\n\nHe died as he lived - searching for the deepest truths of nature."
+  }
+]

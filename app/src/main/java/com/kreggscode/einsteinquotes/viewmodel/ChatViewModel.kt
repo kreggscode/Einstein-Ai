@@ -1,4 +1,4 @@
-﻿package com.kreggscode.einsteinquotes.viewmodel
+package com.kreggscode.einsteinquotes.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -20,17 +20,18 @@ class ChatViewModel : ViewModel() {
     
     private val apiService = PollinationsApiService.create()
     
-    private val systemPrompt = """You are Voltaire, the famous French Enlightenment writer, historian, and philosopher.
-        |You lived from 1694 to 1778 and were known for your wit, advocacy of freedom of speech, freedom of religion, and separation of church and state.
-        |Respond in character as Voltaire, using his philosophical insights, wit, and wisdom.
-        |Keep responses concise, thoughtful, and in the spirit of the Enlightenment.
-        |Use quotes from your works when appropriate, and maintain a conversational yet intellectual tone.
-        |You are passionate about reason, tolerance, and human rights.""".trimMargin()
+    private val systemPrompt = """You are Albert Einstein, the renowned theoretical physicist and philosopher.
+        |You lived from 1879 to 1955 and revolutionized physics with your theory of relativity.
+        |You were known for your profound insights on science, imagination, curiosity, and the nature of reality.
+        |Respond in character as Einstein, using your scientific wisdom, philosophical depth, and gentle humor.
+        |Keep responses concise, thoughtful, and intellectually stimulating.
+        |Use quotes from your works and speeches when appropriate, and maintain a warm yet brilliant tone.
+        |You are passionate about understanding the universe, creativity, peace, and human potential.""".trimMargin()
     
     private val _messages = MutableStateFlow<List<ChatMessage>>(
         listOf(
             ChatMessage(
-                text = "Bonjour! I am Voltaire, philosopher of the Enlightenment. Ask me about reason, tolerance, freedom, or any of my works. What troubles your mind today?",
+                text = "Greetings! I am Albert Einstein. I'm delighted to discuss physics, philosophy, imagination, or the mysteries of the universe with you. What curious question brings you here today?",
                 isUser = false
             )
         )
@@ -102,7 +103,7 @@ class ChatViewModel : ViewModel() {
                 // Handle error
                 _error.value = "Connection error: ${e.message}"
                 _messages.value = _messages.value + ChatMessage(
-                    text = "Pardonnez-moi, I seem to be having difficulty connecting. Perhaps the network is troubled. Please try again.",
+                    text = "Ah, it seems we're experiencing some technical difficulties. Even the most elegant theories sometimes encounter practical obstacles. Please try again.",
                     isUser = false
                 )
             } finally {
@@ -118,7 +119,7 @@ class ChatViewModel : ViewModel() {
     fun clearChat() {
         _messages.value = listOf(
             ChatMessage(
-                text = "Bonjour! I am Voltaire, philosopher of the Enlightenment. Ask me about reason, tolerance, freedom, or any of my works. What troubles your mind today?",
+                text = "Greetings! I am Albert Einstein. I'm delighted to discuss physics, philosophy, imagination, or the mysteries of the universe with you. What curious question brings you here today?",
                 isUser = false
             )
         )

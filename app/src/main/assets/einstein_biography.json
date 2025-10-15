@@ -1,0 +1,159 @@
+{
+  "name": "Albert Einstein",
+  "title": "Theoretical Physicist & Philosopher",
+  "birth": "March 14, 1879",
+  "death": "April 18, 1955",
+  "birthplace": "Ulm, Kingdom of Württemberg, German Empire",
+  "nationality": "German, Swiss, American",
+  
+  "summary": "Albert Einstein was one of the most influential physicists of the 20th century, best known for developing the theory of relativity and contributing to the development of quantum mechanics. His work revolutionized our understanding of space, time, gravity, and the universe itself.",
+  
+  "earlyLife": [
+    "Born in Ulm, Germany on March 14, 1879, to Hermann Einstein and Pauline Koch",
+    "Showed exceptional mathematical ability from an early age, though he was a late talker",
+    "Attended the Luitpold Gymnasium in Munich, where he clashed with authoritarian teaching methods",
+    "Left Germany at age 15 to join his family in Italy, renouncing his German citizenship",
+    "Enrolled at the Swiss Federal Polytechnic School in Zurich in 1896",
+    "Graduated in 1900 with a teaching diploma in physics and mathematics",
+    "Struggled to find academic positions initially, working as a patent examiner in Bern"
+  ],
+  
+  "miracleYear": {
+    "year": 1905,
+    "description": "Einstein's 'Annus Mirabilis' (Miracle Year) when he published four groundbreaking papers",
+    "papers": [
+      {
+        "title": "Photoelectric Effect",
+        "description": "Explained how light can eject electrons from metal surfaces, establishing the quantum nature of light",
+        "impact": "Won him the 1921 Nobel Prize in Physics"
+      },
+      {
+        "title": "Brownian Motion",
+        "description": "Provided empirical evidence for the existence of atoms and molecules",
+        "impact": "Helped establish statistical mechanics and atomic theory"
+      },
+      {
+        "title": "Special Relativity",
+        "description": "Introduced revolutionary concepts about space and time, showing they are relative to the observer",
+        "impact": "Fundamentally changed our understanding of physics"
+      },
+      {
+        "title": "Mass-Energy Equivalence (E=mc²)",
+        "description": "Showed that mass and energy are interchangeable",
+        "impact": "Led to nuclear energy and our understanding of the universe"
+      }
+    ]
+  },
+  
+  "majorWorks": [
+    {
+      "year": "1905",
+      "work": "Special Theory of Relativity",
+      "description": "Revolutionized concepts of space and time, introducing the famous equation E=mc²"
+    },
+    {
+      "year": "1915",
+      "work": "General Theory of Relativity",
+      "description": "Described gravity as the curvature of spacetime caused by mass and energy"
+    },
+    {
+      "year": "1917",
+      "work": "Cosmological Considerations",
+      "description": "Applied general relativity to cosmology, introducing the cosmological constant"
+    },
+    {
+      "year": "1924-1925",
+      "work": "Bose-Einstein Statistics",
+      "description": "Predicted a new state of matter (Bose-Einstein condensate) at extremely low temperatures"
+    },
+    {
+      "year": "1935",
+      "work": "EPR Paradox",
+      "description": "Challenged quantum mechanics with the Einstein-Podolsky-Rosen thought experiment"
+    }
+  ],
+  
+  "achievements": [
+    "Nobel Prize in Physics (1921) for the photoelectric effect",
+    "Copley Medal (1925) from the Royal Society",
+    "Max Planck Medal (1929) from the German Physical Society",
+    "Time Magazine's Person of the Century (1999)",
+    "Developed the theory of special relativity (1905)",
+    "Developed the theory of general relativity (1915)",
+    "Predicted gravitational waves (confirmed 2015)",
+    "Explained Brownian motion, proving atomic theory",
+    "Contributed to quantum mechanics despite philosophical objections",
+    "Published over 300 scientific papers and 150 non-scientific works"
+  ],
+  
+  "philosophy": [
+    "Believed in the power of imagination over knowledge",
+    "Advocated for curiosity as the foundation of discovery",
+    "Emphasized simplicity and elegance in scientific theories",
+    "Questioned authority and conventional wisdom",
+    "Valued independent thinking and intellectual freedom",
+    "Believed in the comprehensibility of the universe",
+    "Saw science and religion as complementary, not contradictory",
+    "Advocated for pacifism and world peace",
+    "Supported civil rights and opposed racism",
+    "Believed education should nurture curiosity, not just transmit facts"
+  ],
+  
+  "personalLife": [
+    "Married Mileva Marić in 1903, had two sons (Hans Albert and Eduard)",
+    "Divorced Mileva in 1919 and married his cousin Elsa Löwenthal",
+    "Passionate violinist who found inspiration in music",
+    "Enjoyed sailing despite never learning to swim",
+    "Known for his disheveled appearance and casual dress",
+    "Emigrated to the United States in 1933 to escape Nazi persecution",
+    "Became a U.S. citizen in 1940 while retaining Swiss citizenship",
+    "Spent his final years at Princeton University",
+    "Declined the presidency of Israel in 1952",
+    "Died on April 18, 1955, in Princeton, New Jersey"
+  ],
+  
+  "legacy": [
+    "Revolutionized physics and our understanding of the universe",
+    "His theories enabled GPS technology, nuclear energy, and lasers",
+    "Inspired generations of scientists and thinkers",
+    "Symbol of genius and intellectual achievement",
+    "Advocate for peace, civil rights, and human dignity",
+    "His brain was preserved for scientific study",
+    "Chemical element 99 (Einsteinium) named in his honor",
+    "Countless schools, awards, and institutions bear his name",
+    "His image and quotes remain iconic in popular culture",
+    "Continues to inspire curiosity and wonder about the universe"
+  ],
+  
+  "famousQuotes": [
+    "Imagination is more important than knowledge.",
+    "The important thing is not to stop questioning. Curiosity has its own reason for existing.",
+    "Try not to become a man of success, but rather try to become a man of value.",
+    "Life is like riding a bicycle. To keep your balance, you must keep moving.",
+    "The only source of knowledge is experience.",
+    "Logic will get you from A to B. Imagination will take you everywhere.",
+    "I have no special talents. I am only passionately curious.",
+    "The measure of intelligence is the ability to change.",
+    "Peace cannot be kept by force; it can only be achieved by understanding.",
+    "The world as we have created it is a process of our thinking."
+  ],
+  
+  "scientificImpact": {
+    "physics": "Revolutionized our understanding of space, time, gravity, and the quantum world",
+    "cosmology": "Laid the foundation for modern cosmology and our understanding of the universe",
+    "technology": "His theories enabled GPS, nuclear energy, lasers, and countless other technologies",
+    "philosophy": "Influenced philosophy of science and our understanding of reality",
+    "mathematics": "Advanced tensor calculus and differential geometry"
+  },
+  
+  "humanitarianWork": [
+    "Advocated for nuclear disarmament after WWII",
+    "Supported the civil rights movement in the United States",
+    "Spoke out against racism and segregation",
+    "Promoted international cooperation and world government",
+    "Supported Zionism but opposed nationalism",
+    "Advocated for academic freedom and free speech",
+    "Helped Jewish refugees escape Nazi Germany",
+    "Signed the Russell-Einstein Manifesto against nuclear weapons"
+  ]
+}

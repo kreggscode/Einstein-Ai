@@ -550,17 +550,6 @@
     "Reference": "Speech at Caltech"
   },
   {
-    "Number": "Number",
-    "Category": "Category",
-    "Quote": "Quote",
-    "Work": "Work",
-    "Year": "Year",
-    "Tags": "Tags",
-    "Context": "Context",
-    "Popularity": "Popularity",
-    "Reference": "Reference"
-  },
-  {
     "Number": 51,
     "Category": "Education & Learning",
     "Quote": "It is a miracle that curiosity survives formal education.",
@@ -1110,17 +1099,7 @@
     "Popularity": "Medium",
     "Reference": "Letter"
   },
-  {
-    "Number": "Number",
-    "Category": "Category",
-    "Quote": "Quote",
-    "Work": "Work",
-    "Year": "Year",
-    "Tags": "Tags",
-    "Context": "Context",
-    "Popularity": "Popularity",
-    "Reference": "Reference"
-  },
+  
   {
     "Number": 101,
     "Category": "Music & Art",
@@ -1671,17 +1650,7 @@
     "Popularity": "High",
     "Reference": "Telegram"
   },
-  {
-    "Number": "Number",
-    "Category": "Category",
-    "Quote": "Quote",
-    "Work": "Work",
-    "Year": "Year",
-    "Tags": "Tags",
-    "Context": "Context",
-    "Popularity": "Popularity",
-    "Reference": "Reference"
-  },
+  
   {
     "Number": 151,
     "Category": "Solitude & Independence",
@@ -2232,17 +2201,7 @@
     "Popularity": "Medium",
     "Reference": "Letter"
   },
-  {
-    "Number": "Number",
-    "Category": "Category",
-    "Quote": "Quote",
-    "Work": "Work",
-    "Year": "Year",
-    "Tags": "Tags",
-    "Context": "Context",
-    "Popularity": "Popularity",
-    "Reference": "Reference"
-  },
+  
   {
     "Number": 201,
     "Category": "Determinism & Free Will",
@@ -2793,17 +2752,7 @@
     "Popularity": "High",
     "Reference": "The Evolution of Physics"
   },
-  {
-    "Number": "Number",
-    "Category": "Category",
-    "Quote": "Quote",
-    "Work": "Work",
-    "Year": "Year",
-    "Tags": "Tags",
-    "Context": "Context",
-    "Popularity": "Popularity",
-    "Reference": "Reference"
-  },
+  
   {
     "Number": 251,
     "Category": "Humanity & Morality",
@@ -3354,17 +3303,7 @@
     "Popularity": "High",
     "Reference": "Address to the French Philosophical Society"
   },
-  {
-    "Number": "Number",
-    "Category": "Category",
-    "Quote": "Quote",
-    "Work": "Work",
-    "Year": "Year",
-    "Tags": "Tags",
-    "Context": "Context",
-    "Popularity": "Popularity",
-    "Reference": "Reference"
-  },
+  
   {
     "Number": 301,
     "Category": "Knowledge & Thinking",
@@ -3915,17 +3854,7 @@
     "Popularity": "Low",
     "Reference": "Attributed"
   },
-  {
-    "Number": "Number",
-    "Category": "Category",
-    "Quote": "Quote",
-    "Work": "Work",
-    "Year": "Year",
-    "Tags": "Tags",
-    "Context": "Context",
-    "Popularity": "Popularity",
-    "Reference": "Reference"
-  },
+  
   {
     "Number": 351,
     "Category": "Science & Physics",
@@ -4586,17 +4515,7 @@
     "Popularity": "High",
     "Reference": "Speech at Caltech"
   },
-  {
-    "Number": "Number",
-    "Category": "Category",
-    "Quote": "Quote",
-    "Work": "Work",
-    "Year": "Year",
-    "Tags": "Tags",
-    "Context": "Context",
-    "Popularity": "Popularity",
-    "Reference": "Reference"
-  },
+  
   {
     "Number": 411,
     "Category": "Science & Physics",
@@ -5257,17 +5176,7 @@
     "Popularity": "Medium",
     "Reference": "Interview"
   },
-  {
-    "Number": "Number",
-    "Category": "Category",
-    "Quote": "Quote",
-    "Work": "Work",
-    "Year": "Year",
-    "Tags": "Tags",
-    "Context": "Context",
-    "Popularity": "Popularity",
-    "Reference": "Reference"
-  },
+  
   {
     "Number": 471,
     "Category": "Science & Physics",
@@ -5928,17 +5837,7 @@
     "Popularity": "High",
     "Reference": "Attributed"
   },
-  {
-    "Number": "Number",
-    "Category": "Category",
-    "Quote": "Quote",
-    "Work": "Work",
-    "Year": "Year",
-    "Tags": "Tags",
-    "Context": "Context",
-    "Popularity": "Popularity",
-    "Reference": "Reference"
-  },
+  
   {
     "Number": 531,
     "Category": "Science & Physics",
@@ -6599,17 +6498,7 @@
     "Popularity": "Low",
     "Reference": "Essay"
   },
-  {
-    "Number": "Number",
-    "Category": "Category",
-    "Quote": "Quote",
-    "Work": "Work",
-    "Year": "Year",
-    "Tags": "Tags",
-    "Context": "Context",
-    "Popularity": "Popularity",
-    "Reference": "Reference"
-  },
+  
   {
     "Number": 591,
     "Category": "Science & Physics",
@@ -7270,17 +7159,7 @@
     "Popularity": "Very High",
     "Reference": "Attributed"
   },
-  {
-    "Number": "Number",
-    "Category": "Category",
-    "Quote": "Quote",
-    "Work": "Work",
-    "Year": "Year",
-    "Tags": "Tags",
-    "Context": "Context",
-    "Popularity": "Popularity",
-    "Reference": "Reference"
-  },
+  
   {
     "Number": 651,
     "Category": "Science & Physics",
@@ -7941,17 +7820,7 @@
     "Popularity": "Medium",
     "Reference": "Attributed"
   },
-  {
-    "Number": "Number",
-    "Category": "Category",
-    "Quote": "Quote",
-    "Work": "Work",
-    "Year": "Year",
-    "Tags": "Tags",
-    "Context": "Context",
-    "Popularity": "Popularity",
-    "Reference": "Reference"
-  },
+  
   {
     "Number": 711,
     "Category": "Women",
@@ -8117,17 +7986,7 @@
     "Popularity": "Medium",
     "Reference": "Speech"
   },
-  {
-    "Number": "Number",
-    "Category": "Category",
-    "Quote": "Quote",
-    "Work": "Work",
-    "Year": "Year",
-    "Tags": "Tags",
-    "Context": "Context",
-    "Popularity": "Popularity",
-    "Reference": "Reference"
-  },
+  
   {
     "Number": 726,
     "Category": "Men",
@@ -8403,17 +8262,7 @@
     "Popularity": "High",
     "Reference": "Telegram"
   },
-  {
-    "Number": "Number",
-    "Category": "Category",
-    "Quote": "Quote",
-    "Work": "Work",
-    "Year": "Year",
-    "Tags": "Tags",
-    "Context": "Context",
-    "Popularity": "Popularity",
-    "Reference": "Reference"
-  },
+  
   {
     "Number": 751,
     "Category": "Love",
