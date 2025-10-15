@@ -14,5 +14,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Voltaire"
+rootProject.name = "Einstein Ai"
 include(":app")
