@@ -101,3 +101,11 @@ Desktop.ini
 *~
 *.swp
 *.bak
+
+# Markdown files (exclude all except README.md)
+*.md
+!README.md
+
+# Exclude markdown files except README.md
+*.md
+!README.md
