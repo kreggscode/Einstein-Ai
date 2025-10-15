@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Deep space gradient background -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="135"
+                android:startColor="#0A0E1A"
+                android:centerColor="#1A1F2E"
+                android:endColor="#2D3548"
+                android:type="linear" />
+        </shape>
+    </item>
+    
+    <!-- Cosmic stars effect (subtle dots) -->
+    <item android:top="100dp" android:bottom="100dp">
+        <shape android:shape="oval">
+            <solid android:color="#20FFFFFF" />
+        </shape>
+    </item>
+    
+    <!-- Center icon placeholder - will be replaced with actual icon -->
+    <item android:gravity="center">
+        <shape android:shape="oval">
+            <size android:width="120dp" android:height="120dp" />
+            <solid android:color="#60A5FA" />
+        </shape>
+    </item>
+</layer-list>

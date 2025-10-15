@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Einstein Insights</string>
+    <string name="home">Home</string>
+    <string name="chat">Chat</string>
+    <string name="favorites">Favorites</string>
+    <string name="works">Works</string>
+    <string name="settings">Settings</string>
+    <string name="about_einstein">About Einstein</string>
+    <string name="works_of_einstein">Works of Einstein</string>
+    <string name="daily_quote">Daily Quote</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="notifications">Notifications</string>
+</resources>
