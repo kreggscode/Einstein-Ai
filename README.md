@@ -10,6 +10,16 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![API](https://img.shields.io/badge/API-24%2B-brightgreen?style=for-the-badge)](https://android-arsenal.com/api?level=24)
 
+<br><br>
+
+<div align="center">
+<a href="https://play.google.com/store/apps/details?id=com.kreggscode.enstienquotes">
+<img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" width="300"/>
+</a>
+</div>
+
+<br>
+
 *A visually stunning Android application featuring Albert Einstein's profound quotes and wisdom with edge-to-edge glassmorphism design, AI-powered chat, and modern UI.*
 
 [Features](#-features) • [Screenshots](#-screenshots) • [Tech Stack](#-tech-stack) • [Installation](#-installation) • [Contributing](#-contributing)
@@ -122,7 +132,7 @@ Implementation follows [Android 15 Edge-to-Edge Guidelines](https://developer.an
 ## 📦 Project Structure
 
 ```
-app/src/main/java/com/kreggscode/einsteinquotes/
+app/src/main/java/com/kreggscode/enstienquotes/
 ├── data/
 │   ├── QuoteDao.kt              # Room DAO
 │   ├── QuoteDatabase.kt         # Room database
