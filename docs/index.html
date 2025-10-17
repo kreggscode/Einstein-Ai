@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Einstein AI - Discover Genius Wisdom</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            color: white;
+            padding: 60px 0;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .subtitle {
+            font-size: 1.5rem;
+            opacity: 0.9;
+            margin-bottom: 30px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: #ff6b6b;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 60px 0;
+        }
+
+        .feature-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .feature-card h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+
+        .screenshot-section {
+            text-align: center;
+            margin: 60px 0;
+        }
+
+        .screenshot-section h2 {
+            color: white;
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+        }
+
+        .screenshots {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .screenshot {
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+        }
+
+        .screenshot img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .screenshot img:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            text-align: center;
+            color: white;
+            padding: 40px 0;
+            border-top: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .quote {
+            font-style: italic;
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        .author {
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            .subtitle {
+                font-size: 1.2rem;
+            }
+
+            .features {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🧠 Einstein AI</h1>
+            <p class="subtitle">Discover Genius Wisdom Through Stunning Design</p>
+            <a href="https://github.com/kreggscode/Einstein-Ai" class="cta-button">Download on GitHub</a>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="features">
+            <div class="feature-card">
+                <div class="feature-icon">🎨</div>
+                <h3>Stunning Design</h3>
+                <p>Cosmic-themed glassmorphism UI with edge-to-edge display and smooth animations</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📚</div>
+                <h3>Rich Content</h3>
+                <p>500+ Einstein quotes organized by categories with scientific context</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🤖</div>
+                <h3>AI Integration</h3>
+                <p>Chat with Einstein using advanced AI for philosophical discussions</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">⭐</div>
+                <h3>Smart Features</h3>
+                <p>Favorites, daily notifications, offline access, and quote sharing</p>
+            </div>
+        </section>
+
+        <section class="screenshot-section">
+            <h2>📱 Screenshots</h2>
+            <div class="screenshots">
+                <div class="screenshot">
+                    <img src="https://raw.githubusercontent.com/kreggscode/Einstein-Ai/main/screenshots/1.png" alt="Home Screen">
+                </div>
+                <div class="screenshot">
+                    <img src="https://raw.githubusercontent.com/kreggscode/Einstein-Ai/main/screenshots/2.png" alt="Chat Screen">
+                </div>
+                <div class="screenshot">
+                    <img src="https://raw.githubusercontent.com/kreggscode/Einstein-Ai/main/screenshots/3.png" alt="Favorites">
+                </div>
+                <div class="screenshot">
+                    <img src="https://raw.githubusercontent.com/kreggscode/Einstein-Ai/main/screenshots/4.png" alt="Works">
+                </div>
+                <div class="screenshot">
+                    <img src="https://raw.githubusercontent.com/kreggscode/Einstein-Ai/main/screenshots/5.png" alt="Settings">
+                </div>
+                <div class="screenshot">
+                    <img src="https://raw.githubusercontent.com/kreggscode/Einstein-Ai/main/screenshots/6.png" alt="Quote Details">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p class="quote">"Imagination is more important than knowledge."</p>
+            <p class="author">— Albert Einstein</p>
+            <p>Made with ❤️ for science enthusiasts</p>
+            <p><a href="privacy.html" style="color: white; text-decoration: underline;">Privacy Policy</a></p>
+        </div>
+    </footer>
+</body>
+</html>

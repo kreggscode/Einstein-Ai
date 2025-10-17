@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧠 Einstein Insights
+# 🧠 Einstein AI
 
 ### *Discover Genius Wisdom Through Stunning Design*
 
@@ -10,7 +10,7 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![API](https://img.shields.io/badge/API-24%2B-brightgreen?style=for-the-badge)](https://android-arsenal.com/api?level=24)
 
-*A visually stunning Android application featuring Albert Einstein's profound quotes and wisdom with edge-to-edge glassmorphism design*
+*A visually stunning Android application featuring Albert Einstein's profound quotes and wisdom with edge-to-edge glassmorphism design, AI-powered chat, and modern UI.*
 
 [Features](#-features) • [Screenshots](#-screenshots) • [Tech Stack](#-tech-stack) • [Installation](#-installation) • [Contributing](#-contributing)
 
@@ -63,9 +63,9 @@
 ### 🤖 **AI Integration**
 
 - 💭 **Chat with Einstein** - AI-powered conversations
-- 🧠 **Pollination AI** - Intelligent responses
+- 🧠 **Intelligent Responses** - Context-aware discussions
 - 💬 **Interactive Dialogue** - Discuss science & philosophy
-- 📝 **Context-Aware** - Understands your questions
+- 📝 **Personalized Insights** - AI-enhanced quote recommendations
 
 </td>
 </tr>
@@ -84,12 +84,40 @@
 | 🧭 **Navigation** | Compose Navigation |
 | 🔄 **Async** | Kotlin Coroutines + Flow |
 | 📦 **Serialization** | kotlinx.serialization |
-| ⚙️ **Background** | WorkManager for notifications | 
+| ⚙️ **Background** | WorkManager for notifications |
 | 🎯 **DI** | Manual (ViewModel Factory) |
 | 📱 **Min SDK** | API 24 (Android 7.0+) |
 | 🎯 **Target SDK** | API 36 (Android 15) |
 
 </div>
+
+## 📱 Edge-to-Edge Implementation
+
+This app fully implements **Android 15 Edge-to-Edge** guidelines to ensure proper handling of system navigation bars:
+
+### ✅ What's Implemented
+
+- **🎯 Window Insets Handling**: Bottom navigation bar automatically adjusts for system navigation buttons (3-button, 2-button, or gesture navigation)
+- **🔄 Dynamic Padding**: Content padding adapts to different navigation modes and device configurations
+- **🌐 Transparent System Bars**: Status bar and navigation bar are transparent for immersive experience
+- **📐 Safe Area Compliance**: All interactive elements stay above system UI elements
+- **🎨 Display Cutout Support**: Proper handling of notches and display cutouts
+
+### 🔧 Technical Details
+
+```kotlin
+// MainActivity.kt - Edge-to-edge setup
+WindowCompat.setDecorFitsSystemWindows(window, false)
+
+// Bottom navigation with insets
+.windowInsetsPadding(WindowInsets.navigationBars)
+
+// Content padding to prevent overlap
+.padding(bottom = if (showBottomBar) 100.dp else 0.dp)
+```
+
+### 📚 Reference
+Implementation follows [Android 15 Edge-to-Edge Guidelines](https://developer.android.com/about/versions/15/behavior-changes-15#edge-to-edge)
 
 ## 📦 Project Structure
 
@@ -110,7 +138,7 @@ app/src/main/java/com/kreggscode/einsteinquotes/
 │   └── NotificationScheduler.kt # Notification scheduler
 ├── ui/
 │   ├── components/
-│   │   ├── MorphismCard.kt      # Reusable morphism cards
+│   │   ├── GlassmorphicCard.kt      # Reusable morphism cards
 │   │   └── FloatingBottomBar.kt # Bottom navigation
 │   ├── screens/
 │   │   ├── HomeScreen.kt
@@ -120,7 +148,6 @@ app/src/main/java/com/kreggscode/einsteinquotes/
 │   │   ├── SettingsScreen.kt
 │   │   ├── QuoteDetailScreen.kt
 │   │   ├── CategoryQuotesScreen.kt
-│   │   ├── WorkQuotesScreen.kt
 │   │   └── AboutScreen.kt
 │   └── theme/
 │       ├── Color.kt             # Cosmic-themed colors
@@ -147,8 +174,8 @@ app/src/main/java/com/kreggscode/einsteinquotes/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/kreggscode/Voltaire-Insights.git
-cd Voltaire-Insights
+git clone https://github.com/kreggscode/Einstein-Ai.git
+cd Einstein-Ai
 
 # 2. Open in Android Studio
 # File → Open → Select the project folder
@@ -162,14 +189,14 @@ cd Voltaire-Insights
 
 ### 🎯 Quick Start
 
-1. **First Launch**: The app will automatically load 1000+ quotes into the database
-2. **Browse Categories**: Explore quotes by themes like Wisdom, Freedom, Love
+1. **First Launch**: The app will automatically load 500+ Einstein quotes into the database
+2. **Browse Categories**: Explore quotes by themes like Science, Life, Imagination
 3. **Save Favorites**: Tap the heart icon on any quote
 4. **Enable Notifications**: Go to Settings → Toggle Daily Quotes
-5. **Chat with Voltaire**: Use the AI chat feature (requires API setup)
+5. **Chat with Einstein**: Use the AI chat feature for philosophical discussions
 
 ### Dataset Files
-The app uses two JSON datasets located in `app/src/main/assets/`:
+The app uses JSON datasets located in `app/src/main/assets/`:
 - `dataset1.json` - Primary quotes dataset
 - `dataset2.json` - Extended quotes with bio notes
 
@@ -179,7 +206,8 @@ These files are automatically loaded and merged on first launch.
 
 <div align="center">
 
-### *"Beauty in Simplicity, Wisdom in Design"*
+### *"Imagination is more important than knowledge."*
+**— Albert Einstein**
 
 </div>
 
@@ -214,10 +242,10 @@ These files are automatically loaded and merged on first launch.
 
 ### 🧩 **Components**
 
-- Morphism cards
-- Glass effects
+- Glassmorphic cards
 - Floating navigation
 - Smooth transitions
+- Premium effects
 
 </td>
 </tr>
@@ -241,9 +269,9 @@ These files are automatically loaded and merged on first launch.
 
 ### 🤖 AI Enhancements
 
-- [ ] 🧠 **Smarter Chat** - Enhanced Pollination AI integration
+- [ ] 🧠 **Smarter Chat** - Enhanced AI integration
 - [ ] 💡 **Quote Recommendations** - AI-powered suggestions
-- [ ] 📚 **Context Analysis** - Deeper philosophical insights
+- [ ] 📚 **Context Analysis** - Deeper scientific insights
 
 ### 🎵 Social Features
 
@@ -263,7 +291,7 @@ These files are automatically loaded and merged on first launch.
 
 **🏠 Home Screen**
 <br><br>
-<img src="https://raw.githubusercontent.com/kreggscode/Voltaire-Insights/main/screenshots/1.png" alt="Home Screen" width="200"/>
+<img src="https://raw.githubusercontent.com/kreggscode/Einstein-Ai/main/screenshots/1.png" alt="Home Screen" width="200"/>
 
 *Beautiful category cards with unique gradient colors*
 
@@ -272,16 +300,16 @@ These files are automatically loaded and merged on first launch.
 
 **💬 Chat Screen**
 <br><br>
-<img src="https://raw.githubusercontent.com/kreggscode/Voltaire-Insights/main/screenshots/2.png" alt="Chat Screen" width="200"/>
+<img src="https://raw.githubusercontent.com/kreggscode/Einstein-Ai/main/screenshots/2.png" alt="Chat Screen" width="200"/>
 
-*AI-powered chat with Voltaire*
+*AI-powered chat with Einstein*
 
 </td>
 <td width="33%" align="center">
 
 **⭐ Favorites**
 <br><br>
-<img src="https://raw.githubusercontent.com/kreggscode/Voltaire-Insights/main/screenshots/3.png" alt="Favorites" width="200"/>
+<img src="https://raw.githubusercontent.com/kreggscode/Einstein-Ai/main/screenshots/3.png" alt="Favorites" width="200"/>
 
 *Saved quotes in one place*
 
@@ -292,16 +320,16 @@ These files are automatically loaded and merged on first launch.
 
 **📚 Works**
 <br><br>
-<img src="https://raw.githubusercontent.com/kreggscode/Voltaire-Insights/main/screenshots/4.png" alt="Works" width="200"/>
+<img src="https://raw.githubusercontent.com/kreggscode/Einstein-Ai/main/screenshots/4.png" alt="Works" width="200"/>
 
-*Voltaire's literary works*
+*Einstein's scientific works*
 
 </td>
 <td width="33%" align="center">
 
 **⚙️ Settings**
 <br><br>
-<img src="https://raw.githubusercontent.com/kreggscode/Voltaire-Insights/main/screenshots/5.png" alt="Settings" width="200"/>
+<img src="https://raw.githubusercontent.com/kreggscode/Einstein-Ai/main/screenshots/5.png" alt="Settings" width="200"/>
 
 *Daily quotes, random quotes, and app preferences*
 
@@ -310,33 +338,44 @@ These files are automatically loaded and merged on first launch.
 
 **💬 Quote Details**
 <br><br>
-<img src="https://raw.githubusercontent.com/kreggscode/Voltaire-Insights/main/screenshots/6.png" alt="Quote Details" width="200"/>
+<img src="https://raw.githubusercontent.com/kreggscode/Einstein-Ai/main/screenshots/6.png" alt="Quote Details" width="200"/>
 
-*Full quote with French translation and actions*
+*Full quote with scientific context and actions*
 
 </td>
 </tr>
 <tr>
-<td width="50%" align="center">
+<td width="33%" align="center">
 
 **🎨 Category View**
 <br><br>
-<img src="https://raw.githubusercontent.com/kreggscode/Voltaire-Insights/main/screenshots/7.png" alt="Category View" width="300"/>
+<img src="https://raw.githubusercontent.com/kreggscode/Einstein-Ai/main/screenshots/7.png" alt="Category View" width="300"/>
 
 *Quotes filtered by category*
 
 </td>
-<td width="50%" align="center">
+<td width="33%" align="center">
 
 **📱 App Overview**
 <br><br>
-<img src="https://raw.githubusercontent.com/kreggscode/Voltaire-Insights/main/screenshots/8.png" alt="App Overview" width="300"/>
+<img src="https://raw.githubusercontent.com/kreggscode/Einstein-Ai/main/screenshots/8.png" alt="App Overview" width="300"/>
 
 *Beautiful floating navigation and modern design*
 
 </td>
+<td width="33%" align="center">
+
+**🧠 AI Chat**
+<br><br>
+<img src="https://raw.githubusercontent.com/kreggscode/Einstein-Ai/main/screenshots/9.png" alt="AI Chat" width="200"/>
+
+*Interactive AI conversations*
+
+</td>
 </tr>
 </table>
+
+*More screenshots available in the [screenshots folder](screenshots/)*
 
 </div>
 
@@ -348,7 +387,7 @@ These files are automatically loaded and merged on first launch.
 
 </div>
 
-We'd love your help making Voltaire Insights even better! Here's how:
+We'd love your help making Einstein AI even better! Here's how:
 
 1. 🍴 **Fork the repository**
 2. 🌿 **Create a feature branch** (`git checkout -b feature/AmazingFeature`)
@@ -381,7 +420,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ### Special Thanks
 
-**François-Marie Arouet (Voltaire)** - For centuries of timeless wisdom
+**Albert Einstein** - For centuries of timeless scientific wisdom and philosophical insights
 
 **Open Source Community** - For amazing tools and libraries
 
@@ -392,7 +431,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ### 📬 Contact & Support
 
 [![GitHub](https://img.shields.io/badge/GitHub-kreggscode-181717?style=for-the-badge&logo=github)](https://github.com/kreggscode)
-[![Repository](https://img.shields.io/badge/Repository-Voltaire--Insights-blue?style=for-the-badge&logo=github)](https://github.com/kreggscode/Voltaire-Insights)
+[![Repository](https://img.shields.io/badge/Repository-Einstein-Ai-blue?style=for-the-badge&logo=github)](https://github.com/kreggscode/Einstein-Ai)
 
 ---
 
@@ -400,11 +439,11 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 <br>
 
-### *"Judge a man by his questions rather than by his answers."*
-**— Voltaire**
+### *"The only source of knowledge is experience."*
+**— Albert Einstein**
 
 <br>
 
-**Made with ❤️ for philosophy enthusiasts and beautiful design**
+**Made with ❤️ for science enthusiasts and beautiful design**
 
 </div>
