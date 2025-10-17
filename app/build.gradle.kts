@@ -7,14 +7,14 @@ plugins {
 }
 
 android {
-    namespace = "com.kreggscode.einsteinquotes"
+    namespace = "com.kreggscode.enstienquotes"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.kreggscode.einsteinquotes"
+        applicationId = "com.kreggscode.enstienquotes"
         minSdk = 26
         targetSdk = 36
-        versionCode = 3
+        versionCode = 4
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
@@ -96,8 +96,8 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.9.0")
     
     // OkHttp for API calls
-    implementation("com.squareup.okhttp3:okhttp:5.1.0")
-    implementation("com.squareup.okhttp3:logging-interceptor:5.1.0")
+    implementation("com.squareup.okhttp3:okhttp:5.2.1")
+    implementation("com.squareup.okhttp3:logging-interceptor:5.2.1")
     
     // Retrofit for REST API
     implementation("com.squareup.retrofit2:retrofit:3.0.0")
